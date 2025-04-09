@@ -1,0 +1,34 @@
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv*
+venv/
+.venv/
+env/
+
+# Git repo and config
+.git
+.gitignore
+
+# Dockerfile and config (optional to exclude build variants)
+.dockerignore
+Dockerfile*
+docker-compose*
+
+# Local configuration and environment
+.env
+.env.*
+
+# Logs
+*.log
+
+# VS Code project files
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
